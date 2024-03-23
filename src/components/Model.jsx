@@ -99,10 +99,10 @@ const Model = () => {
           </div>
 
           {/* model information here */}
-          <div className="mx-auto w-full">
+          <div className="mx-auto w-full my-[90px]">
             <p className="text-sm font-light text-center mb-5">{model.title}</p>
 
-            <div className="flex-center">
+            <div className="flex-center py-0">
               <ul className="color-container">
                 {models.map((item, i) => (
                   <li key={i} className="w-6 h-6 rounded-full mx-2 cursor-pointer" style={{ backgroundColor: item.color[0] }} onClick={() => setModel(item)} />
