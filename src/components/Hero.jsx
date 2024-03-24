@@ -14,6 +14,7 @@ const Hero = () => {
     }
   }
 
+  // Resizing the image based on windows size
   useEffect(() => {
     window.addEventListener('resize', handleVideoSrcSet)
 
